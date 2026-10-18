@@ -3,7 +3,6 @@
 import logging
 import torch
 from torch import nn
-from torch._dynamo.variables import optimizer
 
 log = logging.getLogger(__name__)
 

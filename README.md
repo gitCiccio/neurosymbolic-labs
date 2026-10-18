@@ -58,10 +58,11 @@ Questi risultati verificano la soluzione della tabella XOR completa a due bit. N
 
 | File | Contenuto |
 |---|---|
-| [NeuralNetworkMLPXor.py](neural_networks/NeuralNetworkMLPXor.py) | MLP NumPy con forward, backpropagation e aggiornamenti manuali |
-| [NeuralNetworkXorPytorch.py](neural_networks/NeuralNetworkXorPytorch.py) | MLP equivalente in PyTorch con autograd e SGD |
-| [Guida NumPy](docs/numpy-reti-neurali.md) | Array, forme, operazioni e derivate per una rete neurale |
-| [Guida PyTorch](docs/pytorch-reti-neurali.md) | Tensori, modelli, autograd e ciclo di addestramento |
+| [NeuralNetworkXorCase.py](neural_networks/NeuralNetworkXorCase.py) | MLP NumPy con forward, backpropagation e aggiornamenti manuali |
+| [NeuralNetworkWithPyTorch.py](neural_networks/NeuralNetworkWithPyTorch.py) | MLP equivalente in PyTorch con autograd e SGD |
+| [Guida NumPy](documentation/numpy-reti-neurali.md) | Array, forme, operazioni e derivate per una rete neurale |
+| [Guida PyTorch](documentation/pytorch-reti-neurali.md) | Tensori, modelli, autograd e ciclo di addestramento |
+| [Template di rete PyTorch](documentation/template-rete-neurale-pytorch.md) | Esempio completo sui tre bit, flusso di esecuzione e spiegazione delle funzioni |
 
 ### Esecuzione
 
@@ -75,8 +76,8 @@ python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
 Dalla cartella principale del progetto:
 
 ```powershell
-python neural_networks/NeuralNetworkMLPXor.py
-python neural_networks/NeuralNetworkXorPytorch.py
+python neural_networks/NeuralNetworkXorCase.py
+python neural_networks/NeuralNetworkWithPyTorch.py
 ```
 
 Gli script mostrano l'andamento della loss, le previsioni finali e l'accuratezza sui quattro esempi.
