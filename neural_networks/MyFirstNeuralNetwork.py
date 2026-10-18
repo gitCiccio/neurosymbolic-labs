@@ -1,3 +1,4 @@
+from idlelib.colorizer import color_config
 from typing import Any
 
 import numpy as np
